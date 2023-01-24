@@ -15,8 +15,3 @@ Scenario:
 
 You are a cyber security agent and have been called in to crack an encrypted message that contains crucial information for a top-secret operation. The message was encrypted using the AES algorithm in CBC mode. The encryption key used is known to you, but the IV used during encryption is weak and predictable. Your mission is to decrypt the message and find the flag hidden within. 
 
-The steps to solve this challenge are:
-1.	Obtain the "ciphertext.bin" file and the provided key and IV.
-2.	Create a decryption script using the AES library in Python and the provided key and IV.
-3.	Use the decryption script to decrypt the "ciphertext.bin" file.
-4.	Check the decrypted message for the flag.
